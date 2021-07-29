@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/shallowWaters_GPU.dir/main.cu.o CMakeFiles/shallowWaters_GPU.dir/swe_cuda.cu.o CMakeFiles/shallowWaters_GPU.dir/cmake_device_link.o -o shallowWaters_GPU  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.4/targets/x86_64-linux/lib"

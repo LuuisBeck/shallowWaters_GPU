@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shallowWaters_GPU"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shallowWaters_GPU">
+				<Option output="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/shallowWaters_GPU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 shallowWaters_GPU"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shallowWaters_GPU/fast">
+				<Option output="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/shallowWaters_GPU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 shallowWaters_GPU/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/SWE.cpp">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/SWE.h">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/main.cu">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/swe_cuda.cu">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/textures.cpp">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/textures.h">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/windows.cpp">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/windows.h">
+			<Option target="shallowWaters_GPU"/>
+		</Unit>
+		<Unit filename="/home/luchin/CLionProjects/shallowWaters_GPU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/shallowWaters_GPU.dir/main.cu.o CMakeFiles/shallowWaters_GPU.dir/swe_cuda.cu.o -o CMakeFiles/shallowWaters_GPU.dir/cmake_device_link.o  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

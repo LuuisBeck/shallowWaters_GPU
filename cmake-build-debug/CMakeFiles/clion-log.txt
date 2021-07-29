@@ -1,0 +1,4 @@
+/home/luchin/Descargas/clion-2021.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CUDA_COMPILER=/usr/local/cuda-11.4/bin/nvcc -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/luchin/CLionProjects/shallowWaters_GPU
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luchin/CLionProjects/shallowWaters_GPU/cmake-build-debug

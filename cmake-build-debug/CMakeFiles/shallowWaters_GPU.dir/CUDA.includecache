@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luchin/CLionProjects/shallowWaters_GPU/main.cu
+iostream
+-
+
+/home/luchin/CLionProjects/shallowWaters_GPU/swe_cuda.cu
+cassert
+-
+iostream
+-
+
