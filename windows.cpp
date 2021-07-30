@@ -6,14 +6,58 @@
 // of a triangle, whose three vertices are red, green and blue.  The program
 // illustrates viewing with default viewing parameters only.
 
-#ifdef __APPLE_CC__
-#include <GLUT/glut.h>
-#include "textures.cpp"
-#else
-#include <GLUT/glut.h>
+#include <GL/glut.h>
 #include <GL/gl.h>
+using namespace glm;
+if( !glfwInit() )
+{
+    fprintf( stderr, "Error al inicializar GLFW\n" );
+    return -1;
+}
 
-#endif
+Windows::Windows(int height, int width, int grid_height, int grid_width, int antiAliasing){
+
+    glfwWindowHint(GLFW_SAMPLES, antiAliasing); // 4x antialiasing
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Queremos OpenGL 3.3
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // Para hacer feliz a MacOS ; Aunque no debería ser necesaria
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); //No queremos el viejo OpenGL
+
+    //Crear una ventana y su contexto OpenGL
+    Windows::window = glfwCreateWindow(height, width, "Tutorial 01", NULL, NULL);
+    if( window == NULL ){
+        fprintf( stderr, "Falla al abrir una ventana GLFW. Si usted tiene una GPU Intel, está no es compatible con 3.3. Intente con la versión 2.1 de los tutoriales.\n" );
+        glfwTerminate();
+        return -1;
+    }
+    glfwMakeContextCurrent(window); // Inicializar GLEW
+    glewExperimental=true; // Se necesita en el perfil de base.
+    if (glewInit() != GLEW_OK) {
+        fprintf(stderr, "Falló al inicializar GLEW\n");
+        return -1;
+    }
+
+    // Capturar la tecla ESC cuando sea presionada
+    glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
+
+    do{
+        // No vamos a pintar nada, nos vemos en el tutorial 2 !
+
+        // Intercambiar buffers
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+
+    } // Revisar que la tecla ESC fue presionada y cerrar la ventana
+    while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
+    glfwWindowShouldClose(window) == 0 );
+
+
+}
+
+int Windows::getWidth() {}
+int Windows::getHeight(){}
+int Windows::getGridHeight(){}
+int Windows::getGridWidth(){}
 
 // Clears the current window and draws a triangle.
 void display() {
